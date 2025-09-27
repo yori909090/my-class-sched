@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: Candara, sans-serif;
+	padding: 50px;
+	background:#f8f9fa;
+	color: #333
+}
+header{
+	text-align: center;
+	margin-bottom:20px;
+	border: 2px solid;
+	margin-top: 20px;
+}
+header h2{
+	font-size: 1.8rem;
+	color: #2c3e50;
+	margin-bottom:10px;
+	border: 1px solid;
+}
+.profile{
+	display:flex;
+	justify-content: center-left;
+	align-items: center;
+	gap:100px;
+}
+.profile img{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 10%;
+	border: 1px solid #2c3e50;
+}
+.profile h3{
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
+	
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	background: white;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	border: 2px solid;
+	height:90%;
+}
+thead th{
+	background: #f1c40f;
+	padding: 12 px;
+	border: 2px solid ;
+}
+tbdy td{
+	border: 2px solid;
+    padding: 10px;
+    height:50px;
+}
+.webdev{
+	background: red;
+	color: white;
+	font-weight:bold;
+}
+.ent{
+	background: #FF3366;
+	color: white;
+	font-weight:bold;
+}
+.uid{
+	background:#5B5941;
+	color: white;
+	font-weight:bold;
+}
+.PE{
+	background: #2EC4B6;
+	color: white;
+	font-weight:bold;
+}
+.TCW{
+	background: #211A1D;
+	color: white;
+	font-weight:bold;
+}
+.UTS{
+	background: #58355E;
+	color: white;
+	font-weight:bold;
+}
+
+.math{
+	background: #DA3E52;
+	color: white;
+	font-weight:bold;
+}
+.pr{
+	background: #0A81D1;
+	color: white;
+	font-weight:bold;
+}
+.dms{
+	background: #7C0B2B;
+	color: white;
+	font-weight:bold;
+}
+.rest{
+	background: #DEE2D6;
+	color:black;
+	font-weight:bold;
+}
+.v{
+	background:#FFADC6;
+	color: white;
+	font-weight:bold;
+}
+@media (max-width: 768px){
+	table, thead, tbody, td, th, tr{
+		display: block;
+}
+thead{
+	display: none;
+}
+tbody td{
+	border: 3px solid black;
+	border-bottom: 2px solid ;
+	text-align: left;
+	padding-left: 50%
+position: relative;
+}
+tbody td:before{
+	content: attr(data-label);
+	position: absolute;
+	left: 15px;
+	font-weight: 15px;
+	border: 2px solid;
+}
+.profile{
+	flex-direction: column;
+	gap: 8px
+}
+	
+
+	
+	
+     
